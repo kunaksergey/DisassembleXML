@@ -1,0 +1,23 @@
+<root>
+    <been name="point" class="shape.Point">
+        <option name="x" value="0"/>
+        <option name="y" value="0"/>
+    </been>
+    <been name="line" class="shape.Line">
+        <option name="angle" value="2"/>
+        <option name="name" value="Линия"/>
+    </been>
+    <been  name="triangle" class="shape.Triangle">
+        <option name="angle" value="3"/>
+        <option name="name" value="Треугольник"/>
+    </been>
+    <been name="rectangle" class="shape.Rectangle">
+        <option name="angle" value="4"/>
+        <option name="name" value="Четырехугольник"/>
+    </been>
+    <been name="pane" class="shape.Pane">
+        <option name="line" ref="Line"/>
+        <option name="triangle" ref="Triangle"/>
+        <option name="rectangle" ref="Rectangle"/>
+    </been>
+</root>
