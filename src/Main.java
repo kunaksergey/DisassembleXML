@@ -72,7 +72,6 @@ public class Main {
                 optionsList.add(option);
             }
         }
-        
         return optionsList;
     }
 
